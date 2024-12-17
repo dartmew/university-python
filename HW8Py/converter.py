@@ -49,7 +49,7 @@ def format_browser_type(device):
     #форматируем тип браузера для описания
     if device == 'mobile' or device == 'tablet':
         return 'мобильного'
-    elif device == 'laptop':
+    elif device == 'laptop' or device == 'desktop':
         return 'десктопного'
     else:
         return ''
